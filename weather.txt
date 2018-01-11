@@ -97,3 +97,7 @@ Weather updated hourly
 2:00pm
 42 Degrees
 7mph wind
+
+3:00pm
+43 Degrees
+6mph wind
