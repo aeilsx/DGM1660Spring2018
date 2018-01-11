@@ -1,10 +1,14 @@
 Weather updated hourly
 
 1/11/18
-3:00
+3:00pm
 46 Degrees
 7mph wind
 
-4:00
+4:00pm
 43 Degrees
+6mph wind
+
+5:00pm
+41 Degrees
 6mph wind
