@@ -69,3 +69,7 @@ Weather updated hourly
 7:00am
 35 Degrees
 7mph wind
+
+8:00am
+34 Degrees
+7mph wind
