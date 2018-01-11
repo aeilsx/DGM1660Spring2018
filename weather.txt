@@ -4,3 +4,7 @@ Weather updated hourly
 3:00
 46 Degrees
 7mph wind
+
+4:00
+43 Degrees
+6mph wind
