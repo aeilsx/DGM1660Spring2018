@@ -1,2 +1,6 @@
 Weather updated hourly
 
+1/11/18
+3:00
+46 Degrees
+7mph wind
