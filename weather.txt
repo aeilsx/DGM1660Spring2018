@@ -20,3 +20,7 @@ Weather updated hourly
 7:00pm
 38 Degrees
 8mph wind
+
+8:00pm
+37 Degrees
+8mph wind
