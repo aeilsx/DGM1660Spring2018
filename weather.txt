@@ -53,3 +53,7 @@ Weather updated hourly
 3:00am
 37 Degrees
 7mph wind
+
+4:00am
+37 Degrees
+7mph wind
