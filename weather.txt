@@ -85,3 +85,7 @@ Weather updated hourly
 11:00am
 39 Degrees
 6mph wind
+
+12:00pm
+40 Degrees
+6mph wind
