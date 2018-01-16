@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Hammer.ma
-//Last modified: Tue, Jan 16, 2018 04:37:16 PM
+//Last modified: Tue, Jan 16, 2018 04:41:40 PM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "A68394E0-432D-5BDD-C206-2DBB2848DA79";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 42.190890520183913 4.703057450542584 -7.9784802859009929 ;
-	setAttr ".r" -type "double3" -3.3383527299034399 89.399999999780903 -3.796576883407939e-014 ;
+	setAttr ".t" -type "double3" 31.65161427969776 8.4429946938390472 6.7792100916581504 ;
+	setAttr ".r" -type "double3" -8.7383527299051291 77.799999999781335 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DC83061D-49B6-7020-F24B-2B8ECB3D9AE5";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 44.168144959191714;
+	setAttr ".coi" 37.136244088891793;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -122,6 +122,7 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 createNode transform -n "pCube2";
 	rename -uid "CBDD949C-4B5A-74F9-A441-A689D942B51B";
 	setAttr ".t" -type "double3" 0 0 5.2333118147379167 ;
+	setAttr ".s" -type "double3" 1 0.69717965541286631 0.69717965541286631 ;
 createNode mesh -n "pCubeShape2" -p "pCube2";
 	rename -uid "323B526D-41C0-9848-79EF-4FA16DAD79C1";
 	setAttr -k off ".v";
@@ -133,6 +134,9 @@ createNode mesh -n "pCubeShape2" -p "pCube2";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 12 ".pt[12:23]" -type "float3"  0 1.5949633 0 0 1.5949633 
+		0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 
+		0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 0 0 1.5949633 0;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCube3";
 	rename -uid "CAF09659-4742-5610-2101-4DA81A042FF9";
